@@ -171,3 +171,14 @@ input, textarea {
     grid-template-columns: 1fr;
   }
 }
+.map-container {
+  margin-top: 40px;
+  border-radius: 12px;
+  overflow: hidden; /* Clips the map corners to the radius */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border: 1px solid #ddd;
+}
+
+.map-container iframe {
+  display: block;
+}
